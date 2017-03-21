@@ -67,3 +67,5 @@ Web/filegosmode_websiteAzure/filegodmode.azurewebsites.net/FGM/prod/FileGodMode_
 helpers/minion/FGMminion.exe
 helpers/sendTelegram/SendTelegram.exe
 helpers/sendTelegram/SendTelegramMcSorpresas.exe
+Documentation/
+Web/
