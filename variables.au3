@@ -41,12 +41,7 @@
 		Global $FGMdbFile=""  ; re setted at ConfigInitial()
 		Global $Basedbfile="FGMbase.db"
 		If Not @Compiled Then
-			If @UserName="marcelo" or @UserName="a127314"  then
-				Global $profiledbfile="c:\Dropbox\Shared\RobertoI@MarceloSaied\FileGodMode\profileMarcelo.db"
-			endif
-			If @UserName="roberto.p.iralour" then
-				Global $profiledbfile="c:\Dropbox\Shared\RobertoI@MarceloSaied\FileGodMode\profileRoberto.db"
-			endif
+			#include <secrets/devadmin.secret>
 		endif
 		Global $EncryptDB=true
 		if $EncryptDB  then
