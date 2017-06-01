@@ -1,0 +1,2 @@
+# FileGodMode
+FileGodMode Management automatomation
